@@ -7,6 +7,7 @@
 #
 
 require 'osx/cocoa'
+require File.dirname(__FILE__) + '/mime-types/lib/mime/types.rb'
 
 def rb_main_init  
   path = OSX::NSBundle.mainBundle.resourcePath.fileSystemRepresentation
